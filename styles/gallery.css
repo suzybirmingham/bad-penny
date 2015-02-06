@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container {
+	width: 968px;
+	background: #FFF;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+#container h1 {
+	position: absolute;
+	top: -500px;
+}
+#banner {
+	height: 100px;
+	width: 968 px;
+	border: none;
+	background-repeat: no-repeat;
+}
+img {
+	border: none;
+}
+#NavMap {
+	position: absolute;
+	border:none;
+}
+#main_image {
+	background-repeat: no-repeat;
+	width: 500px;
+	height:396px;
+}
+.blocktext {
+	float:right;
+	width:420px;
+	height:353px;
+	margin-top:25px;
+	margin-right:10px;
+}
+.gallery {
+	width: 500px;
+	height: 350px;
+	cursor:default;
+	list-style:none;
+}
+.gallery img {
+	padding-bottom:2px;
+	padding-top: 15px;
+	padding-right:15px;
+	border:none;
+	vertical-align:top;
+	width:100px;
+	height:100px;
+}
+.gallery li {
+	display: inline;
+	float:left;
+}
+#footer {
+	height: 100px;
+	width: 968 px;
+	margin-top: 4px;
+	background-repeat: no-repeat;
+}
+#copyright {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666;
+}

@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container {
+	width: 968px;
+	background: #FFF;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+#container h1 {
+	position: absolute;
+	top: -500px;
+}
+#banner {
+	height: 100px;
+	width: 968 px;
+	background-repeat: no-repeat;
+}
+#NavMap {
+	position: absolute;
+}
+#main_image {
+	background-repeat: no-repeat;
+	position: relative;
+	height: 396px;
+	width: 968px;
+	margin-top: 10px;
+	background-color: #FFFFFF;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 18px;
+	text-align:center;
+	color: #CCCCCC;
+	text-transform: lowercase;
+}
+a:link { 
+	color: #333333;
+	}
+a:visited { 
+	color: #FFFFFF;
+	}
+a:hover { 
+	color: #CCCCCC;
+	background-color: #333333;
+	text-decoration: none;
+	}
+a:active { 
+	color: #333333;
+	}
+#footer {
+	height: 100px;
+	width: 968 px;
+	margin-top: 10px;
+	background-repeat: no-repeat;
+}
+	

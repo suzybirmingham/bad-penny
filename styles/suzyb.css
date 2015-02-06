@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container {
+	width: 968px;
+	background: #FFF;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+
+#main_image {
+	background-image: url(../images_2/index/main.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	height: 376px;
+	width: 968px;
+	margin-top: 15px;
+}
+#left_column, #center_column, #right_column {
+	width: 316px;
+	float: left;
+}
+#center_column, #right_column {
+	margin-left: 10px;
+}
